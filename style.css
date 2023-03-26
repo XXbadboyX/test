@@ -1,0 +1,91 @@
+body, html {
+  height: 95%;
+}
+/*this is the background*/
+.bg {
+  background-image: url(/bg.png);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1900px;
+}
+/*this is the navi bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7e7a7a;
+  position: absolute;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+}
+.logoinnav {
+  height: 48px;
+  padding-bottom: 0px;
+  display: block;
+  padding: 2px 5px;
+}
+
+li a:hover {
+  background-color: #000000;
+}
+/*this is the title in the page*/
+.title {
+  position: absolute;
+  top: -28px;
+  right: 48%;
+  font-size: 25px;
+}
+/*this is the preview*/
+.preview {
+  position: absolute;
+  top: 15.5%;
+  left: 30%;
+  text-align: center;
+  font-size: x-large;
+  line-height: 0px;
+  
+}
+.preview_img {
+  height: 270px;
+  width: 800px;
+}
+/*this is the grid of the menu*/
+.gridimg {
+  border-radius: 50%;
+}
+.grid-1 {
+  position: absolute;
+  top: 70%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: large;
+}
+.grid-2 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: large;
+}
+.grid-3 {
+  position: absolute;
+  top: 70%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: large;
+}
